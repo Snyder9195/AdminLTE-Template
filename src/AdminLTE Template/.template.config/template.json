@@ -1,11 +1,11 @@
 {
   "$schema": "http://json.schemastore.org/template",
   "author": "Erik Snyder",
-  "name": "AdminLTEv2",
-  "sourceName": "AdminLTEv2",
+  "name": "AdminLTE",
+  "sourceName": "AdminLTE",
   "description": "Project template to create an AdminLTE shell project",
-  "identity": "Snyder.AdminLTEv2.1.0",
-  "shortName": "AdminLTEv2",
+  "identity": "Snyder.AdminLTE",
+  "shortName": "AdminLTE",
   "tags": {
     "language": "C#",
     "type": "project"
