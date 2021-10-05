@@ -1,9 +1,20 @@
 <Project Sdk="Microsoft.NET.Sdk.Web">
-
+  
   <PropertyGroup>
     <TargetFramework>net5.0</TargetFramework>
     <RootNamespace>AdminLTE_Template</RootNamespace>
     <CopyRefAssembliesToPublishDirectory>false</CopyRefAssembliesToPublishDirectory>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    <Description>A C# .Net 5 MVC Razor Template for Visual Studio using the popular AdminLTE Bootsrap Template.</Description>
+    <PackageProjectUrl />
+    <RepositoryUrl>https://github.com/Snyder9195/AdminLTE-Template</RepositoryUrl>
+    <IsPackable>true</IsPackable>
+    <Authors>Erik Snyder</Authors>
+    <PackageTags />
+    <PackageId>AdminLTE-Template</PackageId>
+    <PackageLicenseFile>LICENSE</PackageLicenseFile>
+    <PackageIcon></PackageIcon>
+    <PackageIconUrl />
   </PropertyGroup>
 
   <ItemGroup>
@@ -11,5 +22,21 @@
     <PackageReference Include="Microsoft.AspNetCore.Mvc.Razor.RuntimeCompilation" Version="5.0.10" />
     <PackageReference Include="NLog.Extensions.Logging" Version="1.7.4" />
   </ItemGroup>
+
+  <ItemGroup>
+    <None Include="..\..\..\LICENSE">
+      <Pack>True</Pack>
+      <PackagePath></PackagePath>
+    </None>
+  </ItemGroup>
+  <!-- NUGET -->
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    <PackageRequireLicenseAcceptance>false</PackageRequireLicenseAcceptance>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Relase|AnyCPU'">
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    <PackageRequireLicenseAcceptance>false</PackageRequireLicenseAcceptance>
+  </PropertyGroup>
 
 </Project>
