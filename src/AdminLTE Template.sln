@@ -7,8 +7,14 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AdminLTE Template", "AdminL
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{3FBE7756-17E9-40A1-81A7-B4707B8748D8}"
 	ProjectSection(SolutionItems) = preProject
+		AdminLTE Template\.template.config\ide.host.json = AdminLTE Template\.template.config\ide.host.json
 		AdminLTE Template\.template.config\template.json = AdminLTE Template\.template.config\template.json
 	EndProjectSection
+	ProjectSection(FolderGlobals) = preProject
+		E_5_4Source_4AdminLTE-Template_4src_4AdminLTE Template_4_1template_1config_4ide_1host_1json__JsonSchema = https://json.schemastore.org/vs-2017.3.host.json
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AdminLTE Template Installer", "AdminLTE Template Installer\AdminLTE Template Installer.csproj", "{DDB350C5-2D16-42BC-B308-732308A692BB}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -20,6 +26,10 @@ Global
 		{87DC3881-D4C7-40FC-A97D-4D8073B948EE}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{87DC3881-D4C7-40FC-A97D-4D8073B948EE}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{87DC3881-D4C7-40FC-A97D-4D8073B948EE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DDB350C5-2D16-42BC-B308-732308A692BB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DDB350C5-2D16-42BC-B308-732308A692BB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DDB350C5-2D16-42BC-B308-732308A692BB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DDB350C5-2D16-42BC-B308-732308A692BB}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
