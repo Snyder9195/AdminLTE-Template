@@ -1,13 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <PackageManifest Version="2.0.0" xmlns="http://schemas.microsoft.com/developer/vsx-schema/2011" xmlns:d="http://schemas.microsoft.com/developer/vsx-schema-design/2011">
     <Metadata>
-        <Identity Id="AdminLTE_Template_Installer" Version="1.0" Language="en-US" Publisher="Erik Snyder" />
+        <Identity Id="AdminLTE Template Installer" Version="1.0" Language="en-US" Publisher="Snyder9195" />
         <DisplayName>AdminLTE Template</DisplayName>
         <Description xml:space="preserve">A C# .Net 5 MVC Razor Template for Visual Studio using the popular AdminLTE Bootsrap Template.</Description>
         <MoreInfo>https://github.com/Snyder9195/AdminLTE-Template</MoreInfo>
         <License>LICENSE.txt</License>
         <Icon>AdminLTE.png</Icon>
-        <Tags>AdminLTE C# Bootstrap 3 .Net5</Tags>
     </Metadata>
     <Installation>
         <InstallationTarget Id="Microsoft.VisualStudio.Community" Version="[16.0, 17.0)" />
