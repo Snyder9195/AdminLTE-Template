@@ -1,5 +1,5 @@
 # AdminLTE Template
-The AdminLTE Template is a ready-to-go template for constructing high-quality ASP.NET 5.0 Razor MVC projects. The template also includes other useful plugins.
+The AdminLTE Template is a ready-to-go template for constructing high-quality ASP.NET Razor MVC projects. The template also includes other useful plugins.
 
 This template aims to make development faster and easier since the basic structure of all the dependencies is already defined.
 
