@@ -5,7 +5,7 @@
     <RootNamespace>AdminLTE_Template</RootNamespace>
     <CopyRefAssembliesToPublishDirectory>false</CopyRefAssembliesToPublishDirectory>
     <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
-    <Description>A C# .Net 5 MVC Razor Template for Visual Studio using the popular AdminLTE Bootsrap Template.</Description>
+    <Description>A C# .Net 6 MVC Razor Template for Visual Studio using the popular AdminLTE Bootsrap Template.</Description>
     <PackageProjectUrl />
     <RepositoryUrl>https://github.com/Snyder9195/AdminLTE-Template</RepositoryUrl>
     <IsPackable>true</IsPackable>
@@ -16,6 +16,7 @@
     <PackageIcon></PackageIcon>
     <PackageIconUrl />
     <Version>1.0.2</Version>
+    <PackageReleaseNotes>Updated to work with .Net 6.0 and Visual Studio 2022</PackageReleaseNotes>
   </PropertyGroup>
 
   <ItemGroup>
